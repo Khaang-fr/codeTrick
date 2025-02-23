@@ -1,3 +1,5 @@
+#include <random>
+
 vector<int> generate_random_array(int size, int min_val, int max_val) {
     random_device rd;
     mt19937 gen(rd());
